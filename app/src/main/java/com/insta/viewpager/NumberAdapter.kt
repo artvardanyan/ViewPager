@@ -8,7 +8,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 class NumberAdapter(fragment: FragmentActivity): FragmentStateAdapter(fragment) {
 
     override fun getItemCount(): Int {
-        return 100
+        return 6
     }
 
     override fun createFragment(position: Int): Fragment {
